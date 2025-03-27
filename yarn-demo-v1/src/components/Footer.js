@@ -1,3 +1,4 @@
+import { link } from "react-router-dom"
 //react element/component/page
   //move into seperate file 
   const Footer = (props) =>{

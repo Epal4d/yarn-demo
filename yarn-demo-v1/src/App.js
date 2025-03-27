@@ -1,7 +1,9 @@
+import {HashRouter, Routes, Route} from "react-router-dom"
 import { useref } from "react" 
 import Header from "./components/Header"
 import Footer from "./components/Footer"
-import Nav from "./components/NavBar"
+import NavBar from "./components/NavBar"
+
 /*
 jsx - page/component
 ie: App = react component / page 
@@ -74,7 +76,7 @@ function App() {
     */
    <>     
       <div>
-        <Nav></Nav>        
+               
       </div>
       <div>
         <Header title ="React Yarn Demo intro 1.0"/>
